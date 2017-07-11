@@ -3,6 +3,7 @@ from keras import layers
 from keras.layers import Dense, Input, BatchNormalization, Activation
 from keras.layers import Conv2D, SeparableConv2D, MaxPooling2D, GlobalAveragePooling2D, GlobalMaxPooling2D
 from keras.applications.imagenet_utils import _obtain_input_shape
+from keras.utils.data_utils import get_file
 
 WEIGHTS_PATH = 'https://github.com/fchollet/deep-learning-models/releases/download/v0.4/xception_weights_tf_dim_ordering_tf_kernels.h5'
 
