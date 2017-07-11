@@ -125,7 +125,7 @@ def Xception():
 
 
 """
-	Initiate the model by using the following line of code
+	Instantiate the model by using the following line of code
 
 	model = Xception()
 
